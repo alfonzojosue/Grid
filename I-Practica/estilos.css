@@ -1,0 +1,22 @@
+.contenedor {
+    background-color: white;
+    height: 940px;
+    width: 620px;
+    display: grid;
+    
+    grid-template-columns: 300px 300px;
+    grid-template-rows: 300px 300px 300px;
+    gap: 20px;
+    border: 1px solid black;
+    border-radius: 8px;   
+}
+
+.item{
+    background-color: aqua ;
+    font-size: 4rem;
+    border-radius: 8px;
+    display: grid;
+    justify-items: end;
+    align-items: end;
+
+}
